@@ -2,9 +2,11 @@
 
 This is the first time I worked with Rails
 
-At the time the two developers I was working with were building an ios app. 
+At the time the two developers I was working with had started to build the iOS app which is in the UK app store
 
-I took an afternoon to recreate our mvp in rails myself. 
+www.weaveuk.com
+
+I took an afternoon to recreate our MVP in rails myself. 
 
 * ...
 
