@@ -1,0 +1,10 @@
+<h1><%= @dress.name %></h1>
+
+<p>Likes: <%= @dress.likes %></p>
+
+<a href="<%= @dress.image %>">
+    <img src='<%= @dress.image %>' alt= '<%= @dress.name %>' height="200" /> 
+</a>
+
+<!-- <button type="button">Like Me!</button> -->
+<%= button_to "Like Me!", { action: "like" } %>

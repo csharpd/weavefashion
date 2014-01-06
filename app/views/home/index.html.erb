@@ -1,0 +1,10 @@
+<h1>Top 3 dresses on Weave</h1>
+<p>Vote today!</p>
+
+<% @dresses.each do |dress| %>
+  <%= dress.name %>
+  <a href="<%= dress_path(dress) %>">
+    <img src='<%= dress.image %>' alt= '<%= dress.name %>' height="200" /> 
+  </a>
+  Likes: <%= dress.likes %>
+<% end %>
