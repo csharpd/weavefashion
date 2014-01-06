@@ -2,5 +2,9 @@
 
 This is the first time I worked with Rails
 
+At the time the two developers I was working with were building an ios app. 
+
+I took an afternoon to recreate our mvp in rails myself. 
+
 * ...
 
